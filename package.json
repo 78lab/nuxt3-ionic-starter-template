@@ -4,7 +4,9 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run dev"
   },
   "devDependencies": {
     "@nuxtjs/supabase": "^0.1.19",
@@ -13,5 +15,14 @@
     "nuxt": "3.0.0-rc.6",
     "nuxt-ionic": "^0.3.0",
     "pinia": "^2.0.17"
+  },
+  "dependencies": {
+    "@capacitor/android": "4.0.1",
+    "@capacitor/app": "4.0.1",
+    "@capacitor/cli": "4.0.1",
+    "@capacitor/core": "4.0.1",
+    "@capacitor/haptics": "4.0.1",
+    "@capacitor/keyboard": "4.0.1",
+    "@capacitor/status-bar": "4.0.1"
   }
 }

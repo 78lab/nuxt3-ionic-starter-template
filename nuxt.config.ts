@@ -6,9 +6,7 @@ export default defineNuxtConfig({
         '@vueuse/nuxt',
         '@nuxtjs/supabase',
         'nuxt-ionic',
-        // '@unocss/nuxt',
         '@pinia/nuxt',
-        // '@nuxtjs/color-mode',
       ],
       ssr:false
 })

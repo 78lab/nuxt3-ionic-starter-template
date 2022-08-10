@@ -1,0 +1,6 @@
+{
+  "appId": "com.lab78.nuxt3ionic",
+  "appName": "nuxt3ionic",
+  "webDir": ".output/public",
+  "bundledWebRuntime": false
+}
